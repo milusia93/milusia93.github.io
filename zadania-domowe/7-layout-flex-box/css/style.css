@@ -6,7 +6,7 @@ p {
     text-transform: uppercase;
     text-align: center;
     color: #fff;
-    font-size: 1.3em;
+    font-size: 1.5em;
 }
  section {
     display: flex;
@@ -21,7 +21,6 @@ p {
     align-items: center;
     width: 100%;
     height: 50px;
-    background-color: red;
  }
 
  header {    
@@ -32,14 +31,16 @@ p {
     background-color: mediumslateblue;
  }
 
- .left {
+ aside {
     width: 20%;
+ }
+
+ .left {
     background-color: green;
  }
 
  .right {
-    width: 20%;
-    background-color: rgb(230, 169, 223);
+    background-color: lightpink;
  }
  
  main {
@@ -53,7 +54,7 @@ main p {
 }
 
 .height {
-    height: 200px;
+    height: 250px;
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
