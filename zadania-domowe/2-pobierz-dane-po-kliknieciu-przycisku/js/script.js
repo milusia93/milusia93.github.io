@@ -1,4 +1,4 @@
-$(document).ready(function(){
+
     let btnGetData = document.getElementById('btn')
 
     function getData (){
@@ -38,4 +38,3 @@ $(document).ready(function(){
     
 
 
-});
