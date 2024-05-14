@@ -16,7 +16,7 @@ $(document).ready(function(){
                 pId.innerText = `Post ID: ${data.id}`;
                 pUserId.innerText = `User ID ${data.userId}`;
                 pTitle.innerText = `Title: ${data.title}`;
-                pBody.innerText = `Post: ${data.body}`;
+                pBody.innerText = `Body: ${data.body}`;
 
                 document.body.appendChild(pId);
                 document.body.appendChild(pUserId);
