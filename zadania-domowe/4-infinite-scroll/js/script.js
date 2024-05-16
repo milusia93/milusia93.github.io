@@ -68,4 +68,4 @@ const getData = () => {
     }
 
 }
-window.addEventListener('scroll',scrollToEndOfPage)
+window.addEventListener('scroll',scrollToEndOfPage);
