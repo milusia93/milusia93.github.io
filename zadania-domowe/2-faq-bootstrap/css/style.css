@@ -1,0 +1,21 @@
+.accordion-button:not(.collapsed)::after,
+.accordion-button::after {
+  background-image: unset !important;
+  
+}
+.accordion-button,
+.accordion-button:not(.collapsed){
+  background-color: rgba(222, 222, 222, 0.232);
+  color: rgba(192, 124, 82, 0.788);
+}
+
+.accordion-button:hover,
+.accordion-button:focus {
+  text-decoration-line: underline;
+  box-shadow: none; 
+}
+p,
+.accordion-button:hover {
+  color: rgb(119, 119, 119);
+}
+
