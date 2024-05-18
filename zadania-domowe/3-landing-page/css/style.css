@@ -1,0 +1,23 @@
+section,
+footer {
+    padding: 60px 0;
+}
+
+.bg-img {
+    background-size: cover;
+    background-position: center;
+}
+
+.team-item {
+    max-width: 200px;
+}
+
+.call-to-action {
+background-image: url(../img/slider-1.jpg);
+}
+
+@media (max-width: 768px) {
+    .showcase-img {
+        height: 300px;
+    }
+}
